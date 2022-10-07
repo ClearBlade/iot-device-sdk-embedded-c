@@ -253,7 +253,7 @@ int iotc_utests_main(int argc, char const* argv[])
 		}
 	}
 	if(port_val > 0){
-		/* caller suppied custom hostURL and port number  */
+		/* caller supplied custom hostURL and port number  */
 		setHostNameAndPort(host_name, port_val);
 	}
 
