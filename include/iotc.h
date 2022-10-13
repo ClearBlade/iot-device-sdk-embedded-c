@@ -223,8 +223,6 @@ extern void iotc_events_stop();
  * @brief helps to set custom URL based on region. This is optional function.
  * No need to call if URL is "iot-sandbox-mqtt.clearblade.com" and port is 443
  *
- * @param [in] host URL of the host. Example "iot-sandbox-mqtt.clearblade.com".
- * @param [in] port Port to connect on. Example: 443
  */
 extern void setHostNameAndPort(const char* host, uint16_t port);
 
@@ -241,7 +239,6 @@ extern void setHostNameAndPort(const char* host, uint16_t port);
  * @param [in] client_id The MQTT client ID. Cloud IoT Core requires a
  *     <a href="https://cloud.google.com/iot/docs/how-tos/mqtt-bridge#configuring_mqtt_clients">
  *     device path</a>.
- * @param [in] host The address at which the client connects.
  * @param [in] connection_timeout The number of seconds to wait for an MQTT
  *     <code>CONNACK</code> response before closing the socket. If
  *     <code>0</code>, the TCP timeout is used.
