@@ -58,6 +58,9 @@
 #ifndef IOTC_MQTT_HOST
 #define IOTC_MQTT_HOST \
   { "iot-sandbox-mqtt.clearblade.com", IOTC_MQTT_PORT }
+<<<<<<< HEAD
+>>>>>>> 915d15a (Merging Development into master in ClearBlade iot-device-sdk-embedded-c repo (#3))
+=======
 >>>>>>> 915d15a (Merging Development into master in ClearBlade iot-device-sdk-embedded-c repo (#3))
 #endif
 

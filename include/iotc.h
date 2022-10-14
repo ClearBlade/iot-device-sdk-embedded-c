@@ -222,7 +222,11 @@ extern void iotc_events_stop();
 /**
  * @brief helps to set custom URL based on region. This is optional function.
 <<<<<<< HEAD
+<<<<<<< HEAD
  * No need to call if URL is standard. Example: "us-central1-mqtt.clearblade.com" and port is 443
+=======
+ * No need to call if URL is "iot-sandbox-mqtt.clearblade.com" and port is 443
+>>>>>>> 915d15a (Merging Development into master in ClearBlade iot-device-sdk-embedded-c repo (#3))
 =======
  * No need to call if URL is "iot-sandbox-mqtt.clearblade.com" and port is 443
 >>>>>>> 915d15a (Merging Development into master in ClearBlade iot-device-sdk-embedded-c repo (#3))

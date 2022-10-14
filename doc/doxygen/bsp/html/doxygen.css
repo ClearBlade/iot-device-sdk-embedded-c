@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* The standard CSS for doxygen 1.8.13 */
+=======
+/* The standard CSS for doxygen 1.8.17 */
+>>>>>>> 915d15a (Merging Development into master in ClearBlade iot-device-sdk-embedded-c repo (#3))
 =======
 /* The standard CSS for doxygen 1.8.17 */
 >>>>>>> 915d15a (Merging Development into master in ClearBlade iot-device-sdk-embedded-c repo (#3))
@@ -678,7 +682,11 @@ dl.reflist dd {
 }       
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 .params .paramname, .retval .paramname {
+=======
+.params .paramname, .retval .paramname, .tparams .paramname, .exception .paramname {
+>>>>>>> 915d15a (Merging Development into master in ClearBlade iot-device-sdk-embedded-c repo (#3))
 =======
 .params .paramname, .retval .paramname, .tparams .paramname, .exception .paramname {
 >>>>>>> 915d15a (Merging Development into master in ClearBlade iot-device-sdk-embedded-c repo (#3))

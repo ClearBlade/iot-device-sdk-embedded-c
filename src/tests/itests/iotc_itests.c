@@ -49,10 +49,13 @@ int iotc_itests_main(int argc, char const* argv[])
   iotc_test_init(argc, argv);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   /* caller supplied custom hostURL and port number  */
   /* Example: */
   /*setHostNameAndPort("us-central1-mqtt.clearblade.com", "443");*/
 =======
+=======
+>>>>>>> 915d15a (Merging Development into master in ClearBlade iot-device-sdk-embedded-c repo (#3))
   int i;
   char host_name[2048];
 	uint16_t port_val = 0;
@@ -74,6 +77,9 @@ int iotc_itests_main(int argc, char const* argv[])
 		/* caller supplied custom hostURL and port number  */
 		setHostNameAndPort(host_name, port_val);
 	}
+<<<<<<< HEAD
+>>>>>>> 915d15a (Merging Development into master in ClearBlade iot-device-sdk-embedded-c repo (#3))
+=======
 >>>>>>> 915d15a (Merging Development into master in ClearBlade iot-device-sdk-embedded-c repo (#3))
   
     // report test start
