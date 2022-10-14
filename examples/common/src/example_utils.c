@@ -34,8 +34,30 @@ int iotc_example_handle_command_line_args(int argc, char* argv[]) {
   int missingparameter = 0;
   int retval = 0;
 
+<<<<<<< HEAD
   char host_name[2048];
   char port_val[1048];
+=======
+  int i;
+  char host_name[2048];
+	uint16_t port_val = 0;
+
+ for (i=1; i<argc; ++i) {
+		if (argv[i][0] == '-') {
+			if (!strcmp(argv[i], "--hostURL")) {
+				i++;
+				memcpy(host_name, argv[i], strlen(argv[i]));
+			} else if (!strcmp(argv[i], "--hostPort")) {
+				i++;
+				port_val = atoi(argv[i]);
+			}
+		}
+	}
+	if(port_val > 0){
+		/* caller supplied custom hostURL and port number  */
+		setHostNameAndPort(host_name, port_val);
+	}
+>>>>>>> 915d15a (Merging Development into master in ClearBlade iot-device-sdk-embedded-c repo (#3))
 
   /* log the executable name and library version */
   printf("\n%s\n%s\n", argv[0], iotc_cilent_version_str);

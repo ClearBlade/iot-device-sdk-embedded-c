@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 /* The standard CSS for doxygen 1.8.13 */
+=======
+/* The standard CSS for doxygen 1.8.17 */
+>>>>>>> 915d15a (Merging Development into master in ClearBlade iot-device-sdk-embedded-c repo (#3))
 
 body, table, div, p, dl {
 	font: 400 14px/22px Roboto,sans-serif;
@@ -53,15 +57,22 @@ dt {
 	font-weight: bold;
 }
 
-div.multicol {
+ul.multicol {
 	-moz-column-gap: 1em;
 	-webkit-column-gap: 1em;
+	column-gap: 1em;
 	-moz-column-count: 3;
 	-webkit-column-count: 3;
+	column-count: 3;
 }
 
 p.startli, p.startdd {
 	margin-top: 2px;
+}
+
+th p.starttd, p.intertd, p.endtd {
+        font-size: 100%;
+        font-weight: 700;
 }
 
 p.starttd {
@@ -498,7 +509,7 @@ table.memberdecls {
         white-space: nowrap;
 }
 
-.memItemRight {
+.memItemRight, .memTemplItemRight {
 	width: 100%;
 }
 
@@ -666,7 +677,11 @@ dl.reflist dd {
         padding-left: 0px;
 }       
 
+<<<<<<< HEAD
 .params .paramname, .retval .paramname {
+=======
+.params .paramname, .retval .paramname, .tparams .paramname, .exception .paramname {
+>>>>>>> 915d15a (Merging Development into master in ClearBlade iot-device-sdk-embedded-c repo (#3))
         font-weight: bold;
         vertical-align: top;
 }

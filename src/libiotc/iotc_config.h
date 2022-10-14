@@ -42,6 +42,7 @@
 /* note: usually port 1883 is used for insecure MQTT connections */
 #endif
 
+<<<<<<< HEAD
 #ifndef IOTC_MQTT_HOST_US_CENTRAL
 #define IOTC_MQTT_HOST_US_CENTRAL \
   { "us-central1-mqtt.clearblade.com", IOTC_MQTT_PORT }
@@ -53,6 +54,11 @@
 #ifndef IOTC_MQTT_HOST_ASIA_EAST1
 #define IOTC_MQTT_HOST_ASIA_EAST1 \
   { "asia-east1-mqtt.clearblade.com", IOTC_MQTT_PORT }
+=======
+#ifndef IOTC_MQTT_HOST
+#define IOTC_MQTT_HOST \
+  { "iot-sandbox-mqtt.clearblade.com", IOTC_MQTT_PORT }
+>>>>>>> 915d15a (Merging Development into master in ClearBlade iot-device-sdk-embedded-c repo (#3))
 #endif
 
 #endif /* __IOTC_CONFIG_H__ */

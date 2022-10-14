@@ -367,6 +367,7 @@ iotc_state_t iotc_connect(iotc_context_handle_t iotc_h, const char* username,
     uint16_t port;
   } iotc_static_host_desc_t;
 
+<<<<<<< HEAD
 char* host_name_local;
 uint16_t port_val_local;
 
@@ -396,6 +397,11 @@ else /*(strcasestr(local_client_id, uscentral1) != NULL)*/ {
 }
 
 
+=======
+#define IOTC_MQTT_HOST_ACCESSOR ((iotc_static_host_desc_t)IOTC_MQTT_HOST)
+char* host_name_local = IOTC_MQTT_HOST_ACCESSOR.name;
+uint16_t port_val_local = IOTC_MQTT_HOST_ACCESSOR.port;
+>>>>>>> 915d15a (Merging Development into master in ClearBlade iot-device-sdk-embedded-c repo (#3))
 if(port_val > 0){
   host_name_local = (char *)host_name;
   port_val_local = port_val;
