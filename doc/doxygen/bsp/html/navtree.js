@@ -105,6 +105,7 @@ function getScript(scriptName,func,show)
   script.src = scriptName+'.js';
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   if ($.browser.msie && $.browser.version<=8) {
     // script.onload does not work with older versions of IE
     script.onreadystatechange = function() {
@@ -115,6 +116,8 @@ function getScript(scriptName,func,show)
   }
   head.appendChild(script); 
 =======
+=======
+>>>>>>> 915d15a (Merging Development into master in ClearBlade iot-device-sdk-embedded-c repo (#3))
 =======
 >>>>>>> 915d15a (Merging Development into master in ClearBlade iot-device-sdk-embedded-c repo (#3))
   head.appendChild(script);

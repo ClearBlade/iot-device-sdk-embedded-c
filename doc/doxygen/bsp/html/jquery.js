@@ -16,6 +16,7 @@
 /*!
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * jQuery JavaScript Library v1.7.1
  * http://jquery.com/
  *
@@ -79,6 +80,11 @@
  PowerTip - v1.2.0 - 2013-04-03
  http://stevenbenner.github.com/jquery-powertip/
  Copyright (c) 2013 Steven Benner (http://stevenbenner.com/).
+=======
+ PowerTip v1.3.1 (2018-04-15)
+ https://stevenbenner.github.io/jquery-powertip/
+ Copyright (c) 2018 Steven Benner (http://stevenbenner.com/).
+>>>>>>> 915d15a (Merging Development into master in ClearBlade iot-device-sdk-embedded-c repo (#3))
 =======
  PowerTip v1.3.1 (2018-04-15)
  https://stevenbenner.github.io/jquery-powertip/

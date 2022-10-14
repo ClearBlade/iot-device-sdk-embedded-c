@@ -36,9 +36,12 @@ int iotc_example_handle_command_line_args(int argc, char* argv[]) {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   char host_name[2048];
   char port_val[1048];
 =======
+=======
+>>>>>>> 915d15a (Merging Development into master in ClearBlade iot-device-sdk-embedded-c repo (#3))
 =======
 >>>>>>> 915d15a (Merging Development into master in ClearBlade iot-device-sdk-embedded-c repo (#3))
   int i;
@@ -61,6 +64,9 @@ int iotc_example_handle_command_line_args(int argc, char* argv[]) {
 		setHostNameAndPort(host_name, port_val);
 	}
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 915d15a (Merging Development into master in ClearBlade iot-device-sdk-embedded-c repo (#3))
+=======
 >>>>>>> 915d15a (Merging Development into master in ClearBlade iot-device-sdk-embedded-c repo (#3))
 =======
 >>>>>>> 915d15a (Merging Development into master in ClearBlade iot-device-sdk-embedded-c repo (#3))
