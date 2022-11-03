@@ -172,7 +172,7 @@ void iotc_usage(const char* options, unsigned options_length) {
         break;
       case 'u':
         printf(
-            "-u --mqtt_connect_url\n\tThe url of device to connect to. example: iot-sandbox-mqtt.clearblade.com");
+            "-u --mqtt_connect_url\n\tThe url of device to connect to. example: us-central1-mqtt.clearblade.com");
         break;
       case 'n':
         printf(
