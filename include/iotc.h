@@ -231,6 +231,8 @@ extern void iotc_events_stop();
  * No need to call if URL is "iot-sandbox-mqtt.clearblade.com" and port is 443
 >>>>>>> 915d15a (Merging Development into master in ClearBlade iot-device-sdk-embedded-c repo (#3))
  *
+ * @param [in] host URL of the host. Example "iot-sandbox-mqtt.clearblade.com".
+ * @param [in] port Port to connect on. Example: 443
  */
 extern void setHostNameAndPort(const char* host, uint16_t port);
 
