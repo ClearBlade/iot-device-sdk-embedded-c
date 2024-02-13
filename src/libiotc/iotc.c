@@ -390,25 +390,20 @@ uint16_t port_val_local;
 #define IOTC_MQTT_HOST_ACCESSOR_US_CENTRAL ((iotc_static_host_desc_t)IOTC_MQTT_HOST_US_CENTRAL)
 #define IOTC_MQTT_HOST_ACCESSOR_EUROPE_WEST1 ((iotc_static_host_desc_t)IOTC_MQTT_HOST_EUROPE_WEST1)
 #define IOTC_MQTT_HOST_ACCESSOR_ASIA_EAST1 ((iotc_static_host_desc_t)IOTC_MQTT_HOST_ASIA_EAST1)
-char local_client_id[2048];
-memset(local_client_id,0,sizeof(char));
-if(NULL != client_id){    
-    memcpy(local_client_id, client_id, strlen(client_id));
-}
 
 //har *uscentral1 = "us-central1";
 char *europewest1 = "europe-west1";
 char *asiaeast1 = "asia-east1";
 
-if (strcasestr(local_client_id, europewest1) != NULL) {
+if (client_id && strcasestr(client_id, europewest1) != NULL) {
     host_name_local = IOTC_MQTT_HOST_ACCESSOR_EUROPE_WEST1.name;
     port_val_local = IOTC_MQTT_HOST_ACCESSOR_EUROPE_WEST1.port;
 }
-else if (strcasestr(local_client_id, asiaeast1) != NULL) {
+else if (client_id && strcasestr(client_id, asiaeast1) != NULL) {
     host_name_local = IOTC_MQTT_HOST_ACCESSOR_ASIA_EAST1.name;
     port_val_local = IOTC_MQTT_HOST_ACCESSOR_ASIA_EAST1.port;
 }
-else /*(strcasestr(local_client_id, uscentral1) != NULL)*/ {
+else /*(client_id && strcasestr(client_id, uscentral1) != NULL)*/ {
     /* use this as default value */
     host_name_local = IOTC_MQTT_HOST_ACCESSOR_US_CENTRAL.name;
     port_val_local = IOTC_MQTT_HOST_ACCESSOR_US_CENTRAL.port;
